@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Arial, sans-serif">
+  <rect width="800" height="450" fill="#2b2f24"/>
+  <!-- HUD -->
+  <rect width="800" height="40" fill="#14160f"/>
+  <text x="16" y="26" fill="#f2c14e" font-size="18" font-weight="bold">BURIED BITCOIN</text>
+  <text x="250" y="26" fill="#eee" font-size="15">Day 7 / 30</text>
+  <text x="370" y="26" fill="#eee" font-size="15">£ 42,300</text>
+  <text x="490" y="26" fill="#eee" font-size="15">Fuel ▮▮▮▯▯</text>
+  <text x="620" y="26" fill="#eee" font-size="15">Council trust ▮▮▮▮▯</text>
+  <!-- Top-down landfill map -->
+  <text x="20" y="66" fill="#cfd8b0" font-size="14">Landfill map (top view)</text>
+  <g transform="translate(20,76)">
+    <rect width="380" height="300" fill="#6b5a3a" stroke="#a89060" stroke-width="3"/>
+    <g fill="none" stroke="#5a4b30">
+      <path d="M0 50H380M0 100H380M0 150H380M0 200H380M0 250H380M63 0V300M127 0V300M190 0V300M253 0V300M317 0V300"/>
+    </g>
+    <rect x="253" y="0" width="127" height="100" fill="#8a2b2b" opacity="0.55"/>
+    <text x="262" y="55" fill="#fff" font-size="12">NO DIGGING</text>
+    <rect x="63" y="150" width="64" height="50" fill="#3c6e8f" opacity="0.8"/>
+    <text x="68" y="180" fill="#fff" font-size="11">dug: 2016</text>
+    <rect x="127" y="150" width="63" height="50" fill="#3c6e8f" opacity="0.8"/>
+    <text x="131" y="180" fill="#fff" font-size="11">dug: 2014</text>
+    <rect x="190" y="200" width="63" height="50" fill="none" stroke="#f2c14e" stroke-width="4"/>
+    <text x="196" y="230" fill="#f2c14e" font-size="11">dig here?</text>
+    <circle cx="40" cy="270" r="14" fill="#9bbf3a" opacity="0.8"/>
+    <text x="22" y="295" fill="#dfe" font-size="10">gas pocket</text>
+  </g>
+  <!-- Cross-section -->
+  <text x="420" y="66" fill="#cfd8b0" font-size="14">Cross-section (depth = date)</text>
+  <g transform="translate(420,76)">
+    <rect width="360" height="60" fill="#8c7a55"/><text x="10" y="35" fill="#fff" font-size="13">2018-2019</text>
+    <rect y="60" width="360" height="60" fill="#7a6847"/><text x="10" y="95" fill="#fff" font-size="13">2016-2017</text>
+    <rect y="120" width="360" height="60" fill="#685739"/><text x="10" y="155" fill="#fff" font-size="13">2014-2015</text>
+    <rect y="180" width="360" height="60" fill="#56472d"/><text x="10" y="215" fill="#f2c14e" font-size="13" font-weight="bold">2013 ← the drive is here</text>
+    <rect x="250" y="195" width="34" height="22" rx="3" fill="#222" stroke="#f2c14e"/>
+    <path d="M190 0V200" stroke="#f2c14e" stroke-width="5" stroke-dasharray="8 6"/>
+  </g>
+  <!-- Finds tray -->
+  <g transform="translate(420,330)">
+    <rect width="360" height="100" rx="8" fill="#14160f"/>
+    <text x="12" y="22" fill="#cfd8b0" font-size="13">Today's finds - drag to sort</text>
+    <rect x="12" y="34" width="100" height="54" rx="6" fill="#3c6e8f"/><text x="20" y="66" fill="#fff" font-size="12">CLUES</text>
+    <rect x="130" y="34" width="100" height="54" rx="6" fill="#4f7a3a"/><text x="138" y="66" fill="#fff" font-size="12">VALUABLES</text>
+    <rect x="248" y="34" width="100" height="54" rx="6" fill="#6a3a3a"/><text x="256" y="66" fill="#fff" font-size="12">JUNK</text>
+  </g>
+  <g transform="translate(20,392)">
+    <rect width="380" height="44" rx="8" fill="#14160f"/>
+    <text x="12" y="28" fill="#eee" font-size="13">Found: newspaper "14 MAR 2014" → keep digging deeper</text>
+  </g>
+</svg>
